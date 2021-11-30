@@ -12,7 +12,7 @@ if len(sys.argv) == 3:
     folder_name = sys.argv[1]
     out_prefix = sys.argv[2]
 else:
-    print("\nUsage: " + sys.argv[0] + " folder_of_genes outfile_prefix.\n")
+    print("\nUsage: " + sys.argv[0] + " folder_of_genes outfile_prefix\n")
     sys.exit()
 
 gene_tree_list = os.listdir(folder_name)

@@ -20,4 +20,4 @@ The output file \[outfile\_prefix\].csv lists the name of each file in the gene 
 Phyx will also produce a log called phyx.logfile, and the program generates a file called temp.tre that can be deleted after running. 
 
 ### Dependencies
-This program uses [DendroPy](https://dendropy.org/primer/index.html) to midpoint root unrooted trees and [phyx](https://github.com/FePhyFoFum/phyx) to calculate root-to-tip variance.
+This program uses [DendroPy](https://dendropy.org/index.html) to midpoint root unrooted trees and [phyx](https://github.com/FePhyFoFum/phyx) to calculate root-to-tip variance.
